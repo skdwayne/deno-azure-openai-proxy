@@ -1,6 +1,7 @@
 import { serve } from "https://deno.land/std@0.181.0/http/server.ts";
 import { pooledMap } from "https://deno.land/std@0.182.0/async/pool.ts";
 
+
 // The name of your Azure OpenAI Resource.
 const resourceName:string = Deno.env.get("RESOURCE_NAME");
 // The version of OpenAI API.
